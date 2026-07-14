@@ -328,8 +328,8 @@ export default function MapPage() {
                   sx={{ '& .MuiToggleButton-root': { px: 1.5, textTransform: 'none', fontSize: 13 } }}
                 >
                   <ToggleButton value="ALL">All</ToggleButton>
-                  <ToggleButton value="ORBI">Orbi CCMS</ToggleButton>
-                  <ToggleButton value="LORA" sx={{ color: '#8b5cf6' }}>LoRa CCMS</ToggleButton>
+                  {/* <ToggleButton value="ORBI">Orbi CCMS</ToggleButton> */}
+                  <ToggleButton value="LORA" sx={{ color: '#8b5cf6' }}>Orbi CCMS</ToggleButton>
                 </ToggleButtonGroup>
               </Grid>
 
@@ -354,7 +354,7 @@ export default function MapPage() {
                   <Chip sx={{ bgcolor: C.green,  color: '#fff' }} label="ON"      size="small" />
                   <Chip sx={{ bgcolor: C.grey,   color: '#fff' }} label="OFF"     size="small" />
                   <Chip sx={{ bgcolor: C.red,    color: '#fff' }} label="Fault"   size="small" />
-                  <Chip sx={{ bgcolor: '#8b5cf6', color: '#fff' }} label="LoRa" size="small" />
+                  <Chip sx={{ bgcolor: '#8b5cf6', color: '#fff' }} label="Orbi" size="small" />
                 </Box>
               </Grid>
             </Grid>
