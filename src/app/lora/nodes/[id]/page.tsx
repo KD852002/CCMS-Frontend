@@ -575,7 +575,7 @@ export default function LoraNodeDetailPage() {
                 </Grid>
 
                 {/* Quick actions */}
-                <Grid item xs={12} md={3}>
+                {/* <Grid item xs={12} md={3}>
                   <Typography variant="subtitle2" fontWeight={700} sx={{ mb: 1.5 }}>Quick Actions</Typography>
                   <Box sx={{ display: 'flex', flexDirection: 'column', gap: 1 }}>
                     {[
@@ -591,7 +591,7 @@ export default function LoraNodeDetailPage() {
                       </Button>
                     ))}
                   </Box>
-                </Grid>
+                </Grid> */}
 
                 {/* Location */}
                 <Grid item xs={12}>
